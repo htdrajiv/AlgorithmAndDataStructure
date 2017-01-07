@@ -96,14 +96,16 @@ public class MazeSolverUsingBFS {
         else System.out.println("Path not found to target position");
 
         // print all the positions visited in the sequence of breadth-first-search
+        System.out.println();
+        System.out.println("Path (positions) visited in sequence of Breadth-First-Search");
         for(String s:path){
-            System.out.println("s = " + s);
+            System.out.print(s + " ");
         }
     }
 
     // print the array along with the current position.
     public static void printContent(int i,int j,int len,int[][] input){
-        System.out.println(""+i+""+j);
+        System.out.println("Currently at position : "+i+""+j);
         for(int k = 0;k<len;k++){
             for(int l=0;l<len;l++){
                 if(i==k && j==l) {
