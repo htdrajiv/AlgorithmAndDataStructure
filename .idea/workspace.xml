@@ -19,43 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf08f3ed-b352-46d5-9981-beeca003b2bb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/AlgorithmAndDataStructure.iml" afterDir="false" />
+    <list default="true" id="bf08f3ed-b352-46d5-9981-beeca003b2bb" name="Default" comment="added maven framework support">
       <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/src/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/src/ComparableExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ComparableExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/src/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/src/Permutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Permutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/src/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/src/RunTimeExecution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RunTimeExecution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/src/RunningMedian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RunningMedian.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/src/SearchingAndBacktracking/BfsUsingQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SearchingAndBacktracking/BfsUsingQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/src/SearchingAndBacktracking/DfsUsingStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SearchingAndBacktracking/DfsUsingStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/src/SearchingAndBacktracking/NQueenUsingStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SearchingAndBacktracking/NQueenUsingStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/src/SearchingAndBacktracking/SudokuUsingStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SearchingAndBacktracking/SudokuUsingStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/src/SerializableExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SerializableExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/src/StringQuestions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StringQuestions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/src/ThreadWithSynchronization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ThreadWithSynchronization.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/src/TreeTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TreeTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/src/arrayQuestions/BinaryChop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrayQuestions/BinaryChop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/src/arrayQuestions/MazeSolverUsingBFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrayQuestions/MazeSolverUsingBFS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/src/arrayQuestions/PairSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrayQuestions/PairSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/src/arrayQuestions/ReverseArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrayQuestions/ReverseArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/src/binaryTree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/binaryTree/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/src/binaryTree/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/binaryTree/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/src/binaryTree/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/binaryTree/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/src/clientServer/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clientServer/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/src/clientServer/MultiThreadServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clientServer/MultiThreadServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/src/clientServer/SocketServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clientServer/SocketServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/src/clientServer/ThreadSockets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/clientServer/ThreadSockets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SearchingAndBacktracking/BfsUsingQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SearchingAndBacktracking/BfsUsingQueue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,21 +45,58 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="eu.ydp.idea.ts.spec.generator.settings.spec.template" value="import {$ClassName$} from '$TestsRelativePath$../src/$classRelativePath$/$ClassName$';&#10;&#10;describe('$ClassName$', () =&gt; {&#10;  let $ObjName$:$ClassName$;&#10;&#10;  beforeEach(() =&gt; {&#10;    $ObjName$ = new $ClassName$();&#10;  });&#10;&#10;  describe('', () =&gt; {&#10;    it('', () =&gt; {&#10;      // given&#10;&#10;      // when&#10;&#10;      // then&#10;    });&#10;  });&#10;});&#10;" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Application.SudokuUsingStack">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.BfsUsingQueue">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
       <method />
+    </configuration>
+    <configuration name="BfsUsingQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SearchingAndBacktracking.BfsUsingQueue" />
+      <module name="AlgorithmAndDataStructure" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SearchingAndBacktracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="clientServer.Client" />
+      <module name="AlgorithmAndDataStructure" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="clientServer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="MazeSolverUsingBFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrayQuestions.MazeSolverUsingBFS" />
@@ -104,8 +112,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SudokuUsingStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SearchingAndBacktracking.SudokuUsingStack" />
+    <configuration name="NQueenUsingStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SearchingAndBacktracking.NQueenUsingStack" />
       <module name="AlgorithmAndDataStructure" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -114,6 +122,14 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreeTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TreeTraversal" />
+      <module name="AlgorithmAndDataStructure" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -151,8 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SudokuUsingStack" />
+        <item itemvalue="Application.BfsUsingQueue" />
+        <item itemvalue="Application.NQueenUsingStack" />
+        <item itemvalue="Application.TreeTraversal" />
         <item itemvalue="Application.MazeSolverUsingBFS" />
+        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -172,8 +191,23 @@
       <option name="presentableId" value="Default" />
       <updated>1483744867661</updated>
       <workItem from="1483744873494" duration="260000" />
-      <workItem from="1604868912629" duration="470000" />
+      <workItem from="1604868912629" duration="920000" />
     </task>
+    <task id="LOCAL-00001" summary="added maven framework support">
+      <created>1604869574667</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604869574667</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added maven framework support">
+      <created>1604869711035</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604869711035</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,11 +223,17 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added maven framework support" />
+    <option name="LAST_COMMIT_MESSAGE" value="added maven framework support" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="208" y="23" width="1024" height="816" key="#Project_Structure" timestamp="1604869038809">
-      <screen x="0" y="23" width="1440" height="816" />
+    <state x="208" y="23" width="1024" height="816" key="#Project_Structure" timestamp="1604870297493">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="208" y="23" width="1024" height="816" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1604870297493" />
     <state x="208" y="23" width="1024" height="816" key="#Project_Structure/0.23.1440.816@0.23.1440.816" timestamp="1604869038809" />
     <state x="335" y="126" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1604868943577">
       <screen x="0" y="23" width="1440" height="816" />
@@ -203,5 +243,33 @@
       <screen x="0" y="23" width="1440" height="816" />
     </state>
     <state x="480" y="318" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.23.1440.816@0.23.1440.816" timestamp="1604869261817" />
+    <state width="1398" height="135" key="GridCell.Tab.0.bottom" timestamp="1607638392183">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="135" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1607638392183" />
+    <state width="1398" height="135" key="GridCell.Tab.0.center" timestamp="1607638392181">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="135" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1607638392181" />
+    <state width="1398" height="135" key="GridCell.Tab.0.left" timestamp="1607638392179">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="135" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1607638392179" />
+    <state width="1398" height="135" key="GridCell.Tab.0.right" timestamp="1607638392182">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="135" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1607638392182" />
+    <state x="208" y="23" width="1024" height="816" key="SettingsEditor" timestamp="1604870446625">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="208" y="23" width="1024" height="816" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1604870446625" />
+    <state x="320" y="170" key="Vcs.Push.Dialog.v2" timestamp="1604869727583">
+      <screen x="0" y="23" width="1440" height="816" />
+    </state>
+    <state x="320" y="170" key="Vcs.Push.Dialog.v2/0.23.1440.816@0.23.1440.816" timestamp="1604869727583" />
+    <state x="462" y="326" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1604869616252">
+      <screen x="0" y="23" width="1440" height="816" />
+    </state>
+    <state x="462" y="326" key="git4idea.remote.GitConfigureRemotesDialog/0.23.1440.816@0.23.1440.816" timestamp="1604869616252" />
   </component>
 </project>

@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
+import java.util.Map;
+import java.util.HashMap;
 
 public class BfsUsingQueue {
     public static void main (String[]args)
@@ -31,6 +33,7 @@ public class BfsUsingQueue {
     private static void solveMaze(int[][] input, int dimX, int dimY, int initialXpos, int initialYpos, int destXpos, int destYpos){
         Queue< BfsNode > q = new LinkedList<>();
         List<BfsNode> visited = new ArrayList<>();
+        Map<String, Boolean> visitedMap = new HashMap<>();
         List<String> neighbours = new ArrayList<String>(){{
             add("left");add("right");add("top");add("bottom");
         }};
@@ -41,9 +44,10 @@ public class BfsUsingQueue {
         int path = 0;
         while(q.size() > 0){
             BfsNode n = q.poll();
-            if(alreadyVisited(visited, n)) continue;
+            if(alreadyVisited(visitedMap, n)) continue;
             System.out.println("Exploring "+n.toString());
             path++;
+            visitedMap.put(n.toString(), true);
             visited.add(n);
             if(n.equals(destination)){
                 System.out.println(n.toString()+" is destination. YAY!!");
@@ -60,7 +64,7 @@ public class BfsUsingQueue {
                     }
                 }
             }
-            printContent(n, visited, dimX, dimY, input);
+            printContent(n, visitedMap, dimX, dimY, input);
         }
 
         if(pathFound){
@@ -73,13 +77,9 @@ public class BfsUsingQueue {
         }
     }
 
-    private static boolean alreadyVisited(List<BfsNode> visited, BfsNode n){
-        for(BfsNode node : visited){
-            if(node.equals(n)){
-                return true;
-            }
-        }
-        return false;
+    private static Boolean alreadyVisited(Map<String, Boolean> visitedMap, BfsNode n){
+        Boolean visited = visitedMap.get(n.toString());
+        return visited != null && visited;
     }
 
     private static BfsNode getNeighbour(String type, BfsNode n, int maxX, int maxY){
@@ -100,7 +100,7 @@ public class BfsUsingQueue {
         return null;
     }
 
-    private static void printContent(BfsNode node, List<BfsNode> visited, int lenX, int lenY, int[][] input){
+    private static void printContent(BfsNode node, Map<String, Boolean> visitedMap, int lenX, int lenY, int[][] input){
         int i = node.x; int j = node.y;
         try{
             Thread.sleep(1000);
@@ -112,7 +112,7 @@ public class BfsUsingQueue {
             for(int l=0;l<lenY;l++){
                 if(i==k && j==l) {
                     System.out.print("" + i + "" + j + "   ");
-                }else if(alreadyVisited(visited, new BfsNode(k,l))){
+                }else if(alreadyVisited(visitedMap, new BfsNode(k,l))){
                     System.out.print("*"+ "    ");
                 }
                 else System.out.print(input[k][l] + "    ");
